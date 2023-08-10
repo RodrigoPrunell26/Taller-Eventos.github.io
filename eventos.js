@@ -1,15 +1,7 @@
 
 
-function Saludar() 
-      {
-        alert('HOLA soy el div');    
-      }
-
-document.addEventListener("click", () =>
+const div = document.querySelector("div");
+div.addEventListener("click", () =>
 {
-    Saludar();
-    
+  alert("Hola soy el DIV");
 });
-
-
-
